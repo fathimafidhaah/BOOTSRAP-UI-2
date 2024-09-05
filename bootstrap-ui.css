@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+}
+.main{
+    max-width: 100vw;
+    height: 100vh;
+    background-color: rgb(16, 16, 16);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.background{
+    width: 63%;
+    height: 90%;
+    display: flex;
+}
+.background1{
+    width: 46%;
+    height: 100%;
+    background-color: rgba(58, 20, 20, 0.484);
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+.background2{
+    width: 46%;
+    height: 100%;
+    background-image: url(/img/coat.jpeg);
+    background-size: 113%;
+}
+.up{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(150, 129, 110, 0.728);
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+.card1{
+    width: 84%;
+    height: 85%;
+    background-color:rgb(253, 245, 244);
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
+.top{
+    width: 100%;
+    height: 18%;
+    display: flex;
+    justify-content: end;
+}
+.top h5{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(151, 115, 115);
+    margin-top: 20px;
+}
+.top button{
+    font-size: 7px;
+    background-color: rgb(253, 245, 244);
+    color: rgb(151, 115, 115);
+    border: 0;
+    margin-left: 120px;
+}
+.top button:hover{
+    background-color: rgb(253, 245, 244);
+    color: rgb(151, 115, 115);
+}
+.type{
+    height: 40px;
+    width: 92%;
+    display: flex;
+    align-items: center;
+}
+.middle{
+    width: 92%;
+    height: 45%;
+}
+.middle h6{
+    font-size: 14px;
+    color: rgb(151, 115, 115);
+    font-family: cursive;
+    margin-top: 2px;
+}
+.middle p{
+    font-size: 8px;
+    color: rgb(151, 115, 115);
+}
+#learn{
+    font-size: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.end img{
+    width: 95px;
+    position: relative;
+    left: 50px;
+}
+.card2{
+    width: 84%;
+    height: 85%;
+    background-color: rgb(253, 245, 244);
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+}
+.first{
+    width: 100%;
+    height: 18%;
+}
+.first .type{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.first button{
+    font-size: 7px;
+    border: 0;
+}
+#cata{
+    color: rgb(86, 56, 56);
+    background-color: rgb(253, 245, 244);
+    position: relative;
+    right: 11px;
+}
+.first b{
+    color: rgb(151, 115, 115);
+    font-size: 7px;
+}
+.first svg{
+    margin-left: 200px;
+}
+.last{
+    width: 92%;
+    height: 78%;
+    background-image: url(img/back.jpeg);
+    background-size: 100%;
+}
+
